@@ -58,3 +58,78 @@ D, [2013-08-07T16:48:17.003806 #18734] DEBUG -- : REQUESTING PAGE: GET /help wit
 D, [2013-08-07T16:48:17.048538 #18734] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
 D, [2013-08-07T16:48:17.069018 #18734] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
 D, [2013-08-07T16:48:17.088702 #18734] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-08-08T00:53:47.915174 #26436] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:54:18.347390 #26444] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:54:38.938263 #26451] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:54:52.040768 #26457] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:54:52.252001 #26457] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T00:56:40.383396 #26471] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:56:40.610498 #26471] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T00:58:30.733051 #26558] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:58:31.114946 #26558] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T00:58:31.239314 #26558] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:58:31.288450 #26558] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T00:59:35.905148 #26764] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:59:36.134576 #26764] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T00:59:36.208894 #26764] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T00:59:36.235122 #26764] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T00:59:59.781940 #26771] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:00:00.011004 #26771] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:00:00.095643 #26771] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:00:00.120464 #26771] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:00:33.967576 #26778] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:00:34.217511 #26778] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:00:34.298480 #26778] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:00:34.327649 #26778] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:02:24.093762 #26796] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:02:24.322027 #26796] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:02:24.396404 #26796] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:02:24.421262 #26796] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:02:56.761160 #26803] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:02:56.992571 #26803] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:02:57.066746 #26803] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:02:57.092674 #26803] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:03:57.790344 #26816] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:03:58.029235 #26816] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:03:58.104818 #26816] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:03:58.131124 #26816] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:04:38.456681 #26825] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:04:38.687197 #26825] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:04:38.760683 #26825] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:04:38.785922 #26825] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:04:55.728317 #26832] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:04:55.952678 #26832] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:04:56.024586 #26832] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:04:56.049640 #26832] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:06:18.132750 #26844] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:06:18.361152 #26844] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:06:18.435502 #26844] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:06:18.461110 #26844] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:07:28.332025 #26855] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:07:28.556104 #26855] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:07:28.629724 #26855] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:07:28.654542 #26855] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:07:48.497972 #26861] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:07:48.730737 #26861] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:07:48.804966 #26861] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:07:48.830708 #26861] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:08:55.162340 #26873] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:08:55.389759 #26873] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:08:55.463890 #26873] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:08:55.489345 #26873] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:10:29.117899 #26891] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:10:29.341793 #26891] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:10:29.416572 #26891] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:10:29.441506 #26891] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:11:27.936514 #26902] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:11:28.165223 #26902] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:11:28.243588 #26902] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:11:28.279484 #26902] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:12:06.044362 #26911] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:12:06.271085 #26911] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:12:06.344764 #26911] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:12:06.369720 #26911] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:13:33.861151 #26923] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:13:34.088368 #26923] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+D, [2013-08-08T01:13:34.176800 #26923] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+D, [2013-08-08T01:13:34.201826 #26923] DEBUG -- : REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"nom"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"S'inscrire"} and HTTP headers {"HTTP_REFERER"=>"/signup"}

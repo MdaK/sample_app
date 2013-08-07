@@ -1,0 +1,12 @@
+<% if @user.errors.any? %>
+	<div id="error_explanation">
+		<h4 align="center"><strong>Oops ! <%= pluralize(@user.errors.count, "erreur") %>
+			ont empêcher d'enregistrer votre inscription</strong></h4>
+		<p><i>Merci de corriger les champs : </i></p>
+		<ul>
+			<% @user.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+			<% end %>
+		</ul>
+	</div>
+<% end %>
