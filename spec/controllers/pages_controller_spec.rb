@@ -43,14 +43,14 @@ describe PagesController do
     end  
   end
 
-  describe "GET 'aide'" do
+  describe "GET 'help'" do
     it "devrait reussir" do
-      get 'aide'
+      get 'help'
       response.should be_success
     end
 
     it "doit avoir le bon titre" do
-      get 'aide'
+      get 'help'
       response.should have_selector("title", :content => "MonApplication | Aide")
     end
   end
