@@ -8,6 +8,7 @@ gem "atomic", "~> 1.1.12"
 gem 'pg'
 gem 'devise', '3.0.0.rc'
 gem 'protected_attributes'
+gem 'gravatar_image_tag'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -42,6 +43,7 @@ group :test do
 	gem 'rspec'
 	gem 'webrat', '0.7.3'
 	gem 'spork'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 # Use ActiveModel has_secure_password

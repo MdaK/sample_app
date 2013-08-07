@@ -1,1 +1,14 @@
-<strong> <%= @user.nom %> </strong>  <i>  <%= "<#{@user.email}>" %> </i> 
+<table class="profile" summary="Information profil">
+<caption><h4>Vous consultez : <%= @user.nom %></h4></caption>
+	<tr>
+		<td class="main">
+			<h1>
+				<%= gravatar_for @user, {:size => 100} %>
+			</h1>
+		</td>
+		<td class="sidebar round">
+			<strong>URL : </strong> <%= link_to user_path(@user), @user %>	<br/>
+			<strong>Mail : </strong> <i><%= @user.email %>
+		</td>
+	</tr>
+</table>

@@ -53,5 +53,10 @@ describe PagesController do
       get 'help'
       response.should have_selector("title", :content => "MonApplication | Aide")
     end
+
+    it "devrait avoir un attribut  mot de passe crypté" do
+      @user.should respond_to(:encrypted_password)
+    end
+
   end
 end

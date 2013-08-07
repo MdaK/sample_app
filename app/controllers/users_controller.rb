@@ -6,9 +6,10 @@ class UsersController < ApplicationController
 
   def show
   	@user = User.find(params[:id])
+  	@title = @user.nom
   end
 
   def app_params
-    params.require(:user).permit(:nom, :email)
+    params.require(:user).permit(:nom, :email, :password, :password_confirmation)
   end
 end
