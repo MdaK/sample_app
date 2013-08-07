@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe UserController do
+describe UsersController do
   render_views
 
   describe "GET 'signup'" do
@@ -13,6 +13,5 @@ describe UserController do
       get 'new'
       response.should have_selector("title", :content => "MonApplication | Inscription")
  	end
-  end
-
+end
 end

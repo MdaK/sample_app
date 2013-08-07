@@ -4,7 +4,9 @@ SampleApp::Application.routes.draw do
   get "/contact", :to => 'pages#contact'
   get "/about", :to => 'pages#about'
   get "/help", :to => 'pages#help'
-  get "/signup", :to => 'user#new'
+  get "/signup", :to => 'users#new'
+  get "/show/:id", :to => 'users#show'
+
   root :to => 'pages#home'
 
 

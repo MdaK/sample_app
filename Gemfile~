@@ -35,11 +35,13 @@ end
 
 group :development do
 	gem 'rspec-rails'
+	gem 'annotate-models'
 end
 
 group :test do
 	gem 'rspec'
 	gem 'webrat', '0.7.3'
+	gem 'spork'
 end
 
 # Use ActiveModel has_secure_password
