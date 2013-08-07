@@ -4,7 +4,7 @@ describe PagesController do
   render_views
 
   before(:each) do
-   @message =  "doit avoir le bon titre"
+   message =  "doit avoir le bon titre"
   end
   describe "GET 'home'" do
     it "returns http success" do
@@ -12,9 +12,9 @@ describe PagesController do
       response.should be_success
     end
     
-    it @message do
+    it "doit avoir le bon titre" do
       get 'home'
-      response.should have_selector("title", :content => "Page d'acceuil")
+      response.should have_selector("title", :content => "MonApplication | Page d'acceuil")
     end  
 
   end
@@ -27,7 +27,7 @@ describe PagesController do
 
     it "doit avoir le bon titre" do
       get 'contact'
-      response.should have_selector("title", :content => "Page de contact")
+      response.should have_selector("title", :content => "MonApplication | Page de contact")
     end  
   end
 
@@ -39,7 +39,7 @@ describe PagesController do
 
     it "doit avoir le bon titre" do
       get 'about'
-      response.should have_selector("title", :content => "Qui sommes nous")
+      response.should have_selector("title", :content => "MonApplication | Qui sommes nous")
     end  
   end
 
@@ -51,7 +51,7 @@ describe PagesController do
 
     it "doit avoir le bon titre" do
       get 'aide'
-      response.should have_selector("title", :content => "Aide")
+      response.should have_selector("title", :content => "MonApplication | Aide")
     end
   end
 end
