@@ -1,7 +1,8 @@
 class User < ActiveRecord::Base
 	attr_accessor :password
 	attr_accessible :nom, :email, :password, :password_confirmation
-
+	devise :database_authenticatable, :registerable, :recoverable,
+ :rememberable, :trackable, :validatable, :authentication_keys => [:login]
 	email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 	
 	validates :nom, :presence => true,
@@ -20,8 +21,14 @@ class User < ActiveRecord::Base
 
 	def self.authenticate(email, sub_password)
 		user = find_by_email(email)
-		return nit if user.nif?
+		return nil if user.nil?
 		return user if user.has_password?(sub_password)
+	end
+
+	def self.authenticate_with_salt(id, cookie_salt)
+		user = find_by_id(id)
+		return nil if user.nil?
+		return user if user.salt == cookie_salt
 	end
 
 	private

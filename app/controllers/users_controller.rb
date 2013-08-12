@@ -20,11 +20,28 @@ class UsersController < ApplicationController
   def show
 
   	@user = User.find(params[:id])
-  	flash[:success] = "Vous consultez  #{@user.nom}"
+  	flash.now[:success] = "Vous consultez  #{@user.nom}"
   	@title = @user.nom
+
   end
 
   def app_params
     params.require(:user).permit(:nom, :email, :password, :password_confirmation)
+  end
+
+  def list
+    @users = User.all
+    @user = User.new
+  end
+
+  def update
+    user = User.find_by_id(params[:id])
+
+    user.nom = params[:nom]
+    user.password= user.password
+    user.password_confirmation=user.passwordus
+    user.save
+
+    redirect_to '/list'
   end
 end

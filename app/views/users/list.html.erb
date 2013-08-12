@@ -1,0 +1,14 @@
+<h4>Liste des utilisateurs</h4>
+
+<table>
+<% @users.each do |user| %>
+<%= form_for user, {action: 'udpate'}  do |f| %>
+	<tr> 
+		<%= f.hidden_field :id, value: user.id %>
+		<td>id : <%= user.id %></td>
+		<td>Nom : <%= f.text_field :nom %> </td>
+		<td><%= f.submit "Save" %> </td>
+	</tr>
+<% end %>
+<% end %>
+</table>

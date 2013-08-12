@@ -1,11 +1,19 @@
 SampleApp::Application.routes.draw do
   
+  resources :sessions, :only => [:new, :create, :destroy]
   resources :users
+  devise_for :users
+ 
+  get "/signin", :to => "sessions#new"
+  get "/signout", :to => "sessions#destroy"
+
   get "/", :to => 'pages#home'
   get "/contact", :to => 'pages#contact'
   get "/about", :to => 'pages#about'
   get "/help", :to => 'pages#help'
   get "/signup", :to => 'users#new'
+  get "/list", :to => 'users#list'
+  
   get "/show/:id", :to => 'users#show'
 
   root :to => 'pages#home'
